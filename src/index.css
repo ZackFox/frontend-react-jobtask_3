@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 1144px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+ul {
+  margin: 0;
+  padding-left: 15px;
+  list-style: none;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #4e3679;
+  padding: 20px 0;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn-create {
+  background: #03a9f4;
+  margin-left: 20px;
+}
+
+.btn-create:hover {
+  background: #0874a5;
+}
+
+.btn-login {
+  background: #27b03e;
+  margin-left: 20px;
+}
+
+.btn-login:hover {
+  background: #3c7a10;
+}
+
+.btn-logout {
+  background: #9c27b0;
+  margin-left: 20px;
+}
+
+.btn-logout:hover {
+  background: #7c259a;
+}
+
+.btn-edit,
+.btn-send {
+  background: #ff9800;
+}
+
+.btn-edit:hover,
+.btn-send:hover {
+  background: #cc7b04;
+}
+
+.btn-delete,
+.btn-cancel {
+  background: #344292;
+}
+
+.btn-delete:hover,
+.btn-cancel:hover {
+  background: #1c234c;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.header-user {
+  margin-left: auto;
+}
+
+.profile-name {
+  color: #fff;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.profile-img img {
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 30px 0;
+}
+
+.navlink-back {
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none
+}
+
+.create-news,
+.news-page {
+  width: 80%;
+}
+
+.news-form input[type="text"] {
+  width: calc(100% - 24px);
+}
+
+.quill {
+  margin-bottom: 10px;
+}
+
+.quill .ql-container {
+  min-height: 200px;
+  background: #fff;
+}
+
+.quill .ql-toolbar {
+  background: #e1e5e8;
+}
+
+.current-news {
+  padding: 20px;
+  background: #fff;
+}
+
+.news-item {
+  width: 450px;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  color: #7d7f8c;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.news-author {
+  font-weight: 600;
+}
+
+.news-title {
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: 7px;
+  color: #2196f3;
+}
+
+.news-title:hover {
+  color: #4247c2;
+}
+
+.message {
+  color: red;
+}
+
+.login {
+  width: 450px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #252525;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #03a9f4;
+}
+
+.links a:hover {
+  color: #fff;
+}
